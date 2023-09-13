@@ -49,13 +49,15 @@
       </li>
 
       <li><a href="https://www.w3schools.com/html/html_links.asp#anchor"> ссылку на фрагмент страницы стороннего сайта </a></li>
+      <li><a href="file:///Users/samvelsimavoryan/Downloads/1/index.html?param1=p1&param2=p2&param3=p3"> ссылку с тремя параметрами в URL </a></li>
+      <li><a href="file:///Users/samvelsimavoryan/Downloads/1/index.html" id = "param1"> ссылку с параметром id в URL </a></li>
       <li>
-        ссылки из прямоугольных и круглых областей картинки (HTML-тег map)
+        <a href="https://www.google.com/search?sca_esv=564986265&rlz=1C5CHFA_enRU1026RU1026&q=cat&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjj3KL1rqeBAxXvLBAIHXtBDWoQ0pQJegQIDRAB#imgrc=Kl3KKhCsQyey_M" alt="" usemap = "#mappy"> ссылки из прямоугольных и круглых областей картинки (HTML-тег map) </a>
         <br>
 
         <map name = "mappy">
-          <area shape="rect" coords="40,25,80,120" href="">
-          <area shape="circle" coords="100,10,25" href="">
+          <area shape="rect" coords="40,25,80,120" href="http://kubsu.ru" alt = "прямоугольная область">
+          <area shape="circle" coords="100,10,25" href="http://kubsu.ru" alt = "круглая область">
 
         </map>
 
@@ -67,7 +69,10 @@
 
       <li><a href="https://example.com" rel = "notfollow">  ссылку, по которой запрещен переход поисковикам </a></li>
       <li><a href="https://example.com" rel = "notfollow"> <!--noindex--> запрещенную для индексации поисковиками <!--noindex--> </a></li>
-      <li><a href = "">  ссылку на файл на сервере FTP с авторизацией </a></li>
+      <li><a href = "ftp://user222@example.com/files.file.html">  ссылку на файл на сервере FTP с авторизацией </a></li>
+
+      <li><a href = "https://www.youtube.com" title = "Youtube"> Youtube </a></li>
+      <li><a href = "https://www.facebook.com" title = "Facebook"> Facebook </a></li>
 
 
 
@@ -92,7 +97,7 @@
 
      <label>
        Tel.<br />
-       <input name="field-name-1">
+       <input name="field-tel">
      </label>
 
      </label>
@@ -120,7 +125,7 @@
         <br />
         <select name="field-name-4[]"
           multiple="multiple">
-          <option value="Значение1">Pascal</option>
+          <option value="Значение1" selsected="selsected">Pascal</option>
           <option value="Значение2" selected="selected">C</option>
           <option value="Значение3" selected="selected">C++</option>
           <option value="Значение4" selected="selected">JavaScript</option>
