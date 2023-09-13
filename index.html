@@ -1,0 +1,158 @@
+
+
+<!-- комментарий в HTML -->
+
+<!-- в первой строке мы сообщаем браузеру,
+  что это документ HTML5 -->
+
+<html lang="ru">
+
+  <head>
+    <title>The first project</title>
+  </head>
+
+  <body>
+
+    <h1>
+
+     </h1>
+
+
+    <p> <a href="https://www.w3schools.com"><img src="image.jpg" alt="Цветок" style="width: 300px;" /> </a> </p>
+
+    <h2>
+     
+    </h2>
+
+    <div></div>
+
+    <span></span>
+
+
+    <h2>Нумерованный список</h2>
+
+    <ol>
+      <li> <a href="http://kubsu.ru"> абсолютную гиперссылку на главную страницу сайта kubsu.ru </a></li>
+      <li> <a href="https://kubsu.ru"> абсолютную на главную сайта kubsu.ru в протоколе https </a></li>
+      <li><a href="/pages/page"> сокращенную ссылку на внутреннюю страницу</a></li>
+      <li><a href="/"> сокращенную ссылку на главную страницу </a></li>
+      <li><a href="#top">  ссылку на фрагмент текущей страницы </a></li>
+      <li><a href="page"> относительную на страницу в текущем каталоге </a></li>
+      <li><a href="./about/page"> относительную на страницу в каталоге about </a></li>
+      <li><a href="../page"> относительную на страницу в каталоге уровнем выше текущего  </a></li>
+      <li><a href="../../page"> относительную на страницу в каталоге двумя уровнями выше </a></li>
+      <li>
+        <p>
+        <a href="https://example.com"> <i> link </i> </a>контекстную в тексте абзаца
+        </p>
+
+      </li>
+
+      <li><a href="https://www.w3schools.com/html/html_links.asp#anchor"> ссылку на фрагмент страницы стороннего сайта </a></li>
+      <li>
+        ссылки из прямоугольных и круглых областей картинки (HTML-тег map)
+        <br>
+
+        <map name = "mappy">
+          <area shape="rect" coords="40,25,80,120" href="">
+          <area shape="circle" coords="100,10,25" href="">
+
+        </map>
+
+      </li>
+
+
+      <li><a href> ссылку с пустым href  </a></li>
+      <li><a> ссылку без href </a></li>
+
+      <li><a href="https://example.com" rel = "notfollow">  ссылку, по которой запрещен переход поисковикам </a></li>
+      <li><a href="https://example.com" rel = "notfollow"> <!--noindex--> запрещенную для индексации поисковиками <!--noindex--> </a></li>
+      <li><a href = "">  ссылку на файл на сервере FTP с авторизацией </a></li>
+
+
+
+    </ol>
+
+      <h1>Форма</h1>
+
+    <form action="/"
+      method="POST">
+
+      <label>
+        ФИО:<br />
+        <input name="field-name-1" />
+      </label><br />
+
+      <label>
+        Текстовое поле email:<br />
+        <input name="field-email"
+          type="email"
+          placeholder="Введите вашу почту" />
+      </label><br />
+
+     <label>
+       Tel.<br />
+       <input name="field-name-1">
+     </label>
+
+     </label>
+     <br>
+
+      <label>
+         дата рождения:<br />
+        <input name="field-date"
+          value="2019-08-13"
+          type="date" />
+      </label><br />
+      Пол:<br />
+
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="" />
+        мужской</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        женский</label><br />
+
+        <p> </p> 
+
+        <label>
+        любимый язык программирования:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Pascal</option>
+          <option value="Значение2" selected="selected">C</option>
+          <option value="Значение3" selected="selected">C++</option>
+          <option value="Значение4" selected="selected">JavaScript</option>
+          <option value="Значение5" selected="selected">PHP</option>
+          <option value="Значение6" selected="selected">Python</option>
+          <option value="Значение7" selected="selected">Java</option>
+          <option value="Значение8" selected="selected">Haskel</option>
+          <option value="Значение9" selected="selected">Clojure</option>
+          <option value="Значение10" selected="selected">Prolog</option>
+          <option value="Значение11" selected="selected">Scala</option>
+        </select>
+      </label><br />
+
+      <label>
+        Биография
+        :<br />
+        <textarea name="field-name-2"></textarea>
+      </label><br />
+
+
+
+      Чекбокс:<br />
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        с контрактом ознакомлен (а)</label><br />
+
+      <input type="submit" value="Сохранить"
+
+
+
+    
+
+  </body>
+
+</html>
